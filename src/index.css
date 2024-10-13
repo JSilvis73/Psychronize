@@ -10,10 +10,9 @@
 }
 
 body {
+  border: 2px solid black;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  min-width: max-content;
   min-height: 100vh;
 }
 

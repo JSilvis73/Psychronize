@@ -1,9 +1,14 @@
 import React from 'react'
+import Button from './primitive/Button'
 
 export default function Navbar() {
   return (
-    <div>
-      Navbar
-    </div>
+    <nav className='absolute w-full top-0 border-2 border-yellow-400 flex flex-row justify-center'>
+        <ul className='flex flex-row  gap-4'>
+            <li>ONE</li>
+            <li>TWO</li>
+            <li>THREE</li>
+        </ul>
+    </nav>
   )
 }
