@@ -1,13 +1,16 @@
 import './App.css'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Main from './components/Main'
 
 function App() {
   
 
   return (
     <>
-      <div className=''>
-        <h1 className='text-xl text-teal-300'>Psychronize</h1>
-      </div>
+    <Header />
+    <Main />
+    <Footer />
     </>
   )
 }
