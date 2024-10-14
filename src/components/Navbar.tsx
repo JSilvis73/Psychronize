@@ -3,7 +3,7 @@ import Button from './primitive/Button'
 
 export default function Navbar() {
   return (
-    <nav className='absolute w-full top-0 border-2 border-yellow-400 flex flex-row'>
+    <nav className='absolute w-full h-8 top-0 border-2 border-yellow-400 flex flex-row'>
   
              <p className='flex-start'>logo</p>
            
