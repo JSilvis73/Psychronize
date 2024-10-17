@@ -8,9 +8,9 @@ function App() {
 
 
   return (
-    <div className='w-100 h-screen'>
+    <div className='w-100 min-h-screen flex flex-col'>
       <Navbar />
-      <div className=' border-2 border-blue-400 mt-10 h-full w-full flex flex-col gap-4'>
+      <div className='flex-grow border-2 border-blue-400 mt-16 flex flex-col gap-4'>
 
         <Header />
         <Main />
